@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 157, 208);
+}
+p{
+    background-color:rgb(255, 157, 208);
+}
+.top{
+    background-color:rgba(128, 0, 32,0.801);
+    color: antiquewhite;
+    font-size: 50px;
+    text-align: center;
+}
+.container{
+    background-color:rgb(255, 157, 208) ;
+    font-size: 30px;
+}

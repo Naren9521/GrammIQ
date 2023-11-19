@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission Form</title>
+    <link rel="stylesheet" href="Submission.css">
+    <script src="Submission.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h2>Submission Form</h2>
+        <form id="submissionForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="rollNumber">Roll Number:</label>
+            <input type="text" id="rollNumber" name="rollNumber" required>
+            <label for="textArea">Enter Text:</label>
+            <textarea id="textArea" name="textArea" placeholder="Type something..."></textarea>
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

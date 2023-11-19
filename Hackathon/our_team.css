@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-banner{
+    background-color: rgba(128, 0, 32,0.801);
+}
+
+.team-section{
+    height: 100vh;
+    background-color: rgb(255, 149, 204);
+
+}
+
+.top-banner .container #ab{
+    
+    /* padding-top: 10px; */
+    display: flex;
+    justify-content: center;
+    /* background-color: pink; */
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.team-container{
+    display: flex;
+    justify-content: center;
+    padding: 15%;
+    /* align-content: center; */
+}
+
+.team-members{
+    display: flex;
+    /* align-items: center; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+
+}
+
+.team-members #name{
+    margin: 0 5%;
+}
+
+.team-members #name img{
+    
+    border-radius: 50%;
+    border: 10px solid black;
+}
+
+
