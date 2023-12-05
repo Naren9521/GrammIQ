@@ -1,0 +1,76 @@
+
+body{
+    background-image:url("img4.jpeg");
+    background-size: 100% 820px;
+    background-repeat: no-repeat;
+}
+.contain{
+width: 420px;
+height: 520px;
+background-color:rgb(255, 157, 208, 0.8);
+margin:auto;
+border-radius: 25px;
+margin-top: 100px;
+color: black;
+}
+.contain .text{
+    text-align: center;}
+.inp1{
+    border: none;
+    background-color:rgb(255, 157, 208, 0.6);
+    border-bottom: 3px solid rgba(128, 0, 32,0.801);
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+    outline: none;
+    color: black;
+}
+
+.inp2{
+    border: none;
+    background-color:rgb(255, 157, 208, 0.6);;
+    border-bottom: 3px solid rgba(128, 0, 32,0.801);
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top:40px;
+    outline: none;
+    color: black;
+}
+h1{
+    font-size: 40px;
+    color: rgba(128, 0, 32,0.801);
+    border-bottom: 5px solid rgba(128, 0, 32,0.801);
+    border-radius: 40px;
+    font-family: 'Courgette', cursive;
+    margin-top: 8px;
+}
+.contain h2{
+    font-size:36px;
+    color:rgba(128, 0, 32,0.801);
+    border-bottom: 3px solid rgba(128, 0, 32,0.801);
+    border-radius: 40px;
+    
+}
+
+.text button{
+    width:250px;
+    height:44px;
+    background-color: rgba(128, 0, 32,0.801);
+    color: black;
+    border: none;
+    font-size: 24px;
+    border-radius: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+button:hover{border:3px solid rgba(128, 0, 32,0.801);
+color: white;
+font-size:20px;
+background-color: rgb(255, 157, 208, 0.6);}
+p{
+    margin-top: 30px;
+    font-size: 26px;
+}
+p span{color: rgba(128, 0, 32,0.801);
+    cursor: pointer;
+}

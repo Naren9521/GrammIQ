@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Textarea Form</title>
+    <link rel="stylesheet" href="Similarity.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <form id="myForm" method="post">
+            <label for="textArea">First text</label>
+            <textarea id="textArea" name="textArea" placeholder="Enter the text..."></textarea>
+
+            <label for="resultTextArea">Second text</label>
+            <textarea id="resultTextArea" name="resultTextArea" placeholder="Enter the text..."></textarea>
+
+            <button type="button" onclick="compareTexts()">Compare</button>
+        </form>
+
+        <div id="resultContainer">
+            <h2>Similar Sentences</h2>
+            <ul id="similarSentencesList"></ul>
+        </div>
+
+        <script src="Similarity.js"></script>
+    </div>
+</body>
+
+</html>

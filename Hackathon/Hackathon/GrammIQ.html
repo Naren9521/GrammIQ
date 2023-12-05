@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrammIQ</title>
+    <link rel="stylesheet" href="GrammIQ.css">
+    <link rel="stylesheet" href="bgc3.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Courgette&family=Poppins:ital,wght@1,400&family=Roboto&display=swap"
+        rel="stylesheet">
+    <script src="Grammar_iq.js"> </script>
+
+</head>
+<section></section>
+
+<body>
+    <div class="main-box">
+        <nav>
+            <h1>GrammIQ</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="Showsubmission.html">Submissions</a></li>
+                <li><a href="about_us.html">About</a></li>
+                <li><a href="our_team.html">Team</a></li>
+            </ul>
+            <div class="btn">
+                <button onclick="rediretToLogin()">Logout</button>
+            </div>
+        </nav>
+
+        <!-- html of main page  -->
+        <div class="main-div">
+            <div class="img">
+                <img src="gramm.jpg">
+            </div>
+            <div class="head">
+                <h1 id="h1">Unlock the door,<br>Explore for more</h1>
+                <h3 id="h3">Compare multiple texts </h3>
+                <p id="p">Submit your assignments and analyze them individually for accurate comparision</p>
+                <button onclick="rediretToSubmission()">Submit your work</button>
+            </div>
+        </div>
+        <br>
+        <div class="main-div">
+            <div class="head">
+                <h1 id="h1">No grammar fear,<br>Let's make it clear</h1>
+                <h3 id="h3">Accurate grammar checking</h3>
+                <p id="p">Click on check grammar to check for grammar mistakes. Our tool analyzes your text and provides
+                    detailed suggestions to improve grammar.</p>
+                <button onclick="redirectToSpell()">Check Grammar</button>
+            </div>
+            <div class="img">
+                <img src="gramm2.jpeg">
+            </div><br>
+        </div>
+        <div class="main-div">
+            <div class="img">
+                <img src="similarity.jpeg">
+            </div>
+            <div class="head">
+                <h1 id="h1">Check similarity,<br>It's my guarantee</h1>
+                <h3 id="h3">Maintain originality</h3>
+                <p id="p">Our similarity analysis feature helps you identify similarities in your texts with you
+                    classmate's texts</p>
+                <button onclick="showSimilarityOptions()">Check Similarity</button>
+            </div>
+            <div class="btn" id="similarityOptions">
+                <label for="similarityType">Select Similarity Type:</label>
+                <select id="similarityType">
+                    <option value="text">Between Two Texts</option>
+                    <option value="class">Within a Class</option>
+                </select>
+                <button onclick="checkSimilarity()">Go</button>
+            </div>
+        </div>
+        <br>
+        <!-- animated background -->
+        <div class="box1">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <div class="footer-container">
+                <a class="hover-link" href="#">Privacy policy</a>
+                <a class="hover-link" href="#">Terms & Condition</a>
+                <a class="hover-link" href="#">Security Information</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
