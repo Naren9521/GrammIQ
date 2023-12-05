@@ -1,21 +1,35 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+img{
+    padding-left:25px;
 }
-body{
-    background-color: rgb(255, 157, 208);
+#b{
+    font-size: 22px;
+    display: flex;
+    justify-content: end;
 }
-p{
-    background-color:rgb(255, 157, 208);
-}
-.top{
-    background-color:rgba(128, 0, 32,0.801);
-    color: antiquewhite;
-    font-size: 50px;
+h1{
+    color: red;
     text-align: center;
+    font-size: 50px;
+    background-color: rgb(255, 127, 232);
+    font-weight: bold;
 }
 .container{
-    background-color:rgb(255, 157, 208) ;
-    font-size: 30px;
+    font-size: 22px;
+    padding-left: 25px;
+    
+}
+body{
+    background-image: url(https://th.bing.com/th/id/OIP.2IARWoY4r_DbkPUE4-Y2igHaEo?w=290&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    size: auto;
+    color:black;
+    font-weight: bolder;
+    padding: 25px;
+}
+#c{
+    font-family: italic;
+    font-size: 22px;
+
+
 }

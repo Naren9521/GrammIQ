@@ -8,7 +8,9 @@ function showSimilarityOptions() {
     var similarityOptions = document.getElementById('similarityOptions');
     similarityOptions.style.display = 'block';
 }
-
+function rediretToLogin(){
+    window.location.href = 'login_page.html';
+}
 function checkSimilarity() {
     var similarityType = document.getElementById('similarityType').value;
 

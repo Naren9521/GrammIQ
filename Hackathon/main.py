@@ -16,7 +16,7 @@ tool = language_tool_python.LanguageToolPublicAPI('en-US')
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-from sqlalchemy import create_engine, Column, Integer, VARCHAR
+from sqlalchemy import create_engine, Column, Integer, TEXT
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import select
@@ -32,9 +32,9 @@ Base = declarative_base()
 
 class submissions(Base):
     __tablename__ = 'submissions'
-    name = Column(VARCHAR(255), primary_key=True)
-    roll_number = Column(VARCHAR(255))
-    data = Column(VARCHAR(255))
+    name = Column(TEXT, primary_key=True)
+    roll_number = Column(Integer)
+    data = Column(TEXT)
     
 Base.metadata.create_all(engine)
 
